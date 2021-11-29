@@ -13,6 +13,8 @@ namespace dbfirstMVC.Controllers
 {
     public class StudentsController : Controller
     {
+        public string abc;
+
         private dbfirstMVCContext db = new dbfirstMVCContext();
 
         // GET: Students
