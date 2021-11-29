@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TestingEntities-Web.config Connection String" description="TestingEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/MVC.csdl|res://*/MVC.ssdl|res://*/MVC.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LIN19004987\SQLEXPRESS;initial catalog=Testing;user id=sa;password=admin@1234;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Archana\\dbfirstMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TestingEntities']/@connectionString" />
+  </parameter>
+  <parameter name="dbfirstMVCContext-Web.config Connection String" description="dbfirstMVCContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=LIN19004987\SQLEXPRESS; Initial Catalog=Testing; user id=sa;password=admin@1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Archana\\dbfirstMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbfirstMVCContext']/@connectionString" />
+  </parameter>
+</parameters>
